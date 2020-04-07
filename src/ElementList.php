@@ -61,7 +61,7 @@ class ElementList extends Plugin
             View::EVENT_REGISTER_CP_TEMPLATE_ROOTS,
             function (RegisterTemplateRootsEvent $e) {
                 $e->roots['nested-element-index'] = Craft::$app->getPath()->getVendorPath() .
-                    '/flipboxfactory/craft-elements-nested-index/src/templates';
+                    '/flipboxfactory/craft-elements-nested-index-supercool/src/templates';
             }
         );
     }
